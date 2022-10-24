@@ -1,10 +1,11 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.7"
-gem "minimal-mistakes-jekyll"
+gem "github-pages", "~> 223", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+gem 'jekyll-admin', group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+    gem "jekyll-feed", "~> 0.15.1"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
@@ -13,6 +14,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
-gem "kramdown-parser-gfm"
+
 gem "webrick", "~> 1.7"
+gem "kramdown-parser-gfm"
