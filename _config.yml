@@ -1,6 +1,5 @@
-#theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "Ko-KR"
@@ -22,9 +21,9 @@ comments:
     theme                : "github-light"
     issue_term           : "pathname"
     label                : "comment"
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true, false (default)
+search_full_content      : true, false (default)
+search_provider          : google
 lunr:
   search_within_pages    : # true, false (default)
 google:
