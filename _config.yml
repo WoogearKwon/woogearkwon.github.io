@@ -3,9 +3,8 @@ minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "Ko-KR"
-title                    : "Hi, I'm Woogear"
+title                    : "Woogear Kwon"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Woogear Kwon"
 description              : "Morning Lover"
 url                      : https://woogearkwon.github.io
@@ -46,15 +45,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Woogear Kwon"
+  name             : # "Woogear Kwon"
   avatar           : # "/assets/images/logo.png"
-  bio              : "This is another brand new day!"
-  location         : "Seoul, South Korea"
-  email            : #"woogear.kwon@gmail.com"
+  bio              : # "Shalom!"
+  location         : # "Seoul, South Korea"
+  email            : # "woogear.kwon@gmail.com"
   links:
     - label: "woogear.kwon@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:woogear.kwon@gmail.com"
+      # url: "mailto:woogear.kwon@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -66,7 +65,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/WoogearKwon"
+      # url: "https://github.com/WoogearKwon"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -77,27 +76,23 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/WoogearKwon"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:woogear.kwon@gmail.com"
 
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - _layouts
+  - _data
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
