@@ -15,3 +15,125 @@ search: false
     background: #dddddd;
     border-radius: 4px;
 }
+
+.greedy-nav .visible-links a::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 4px;
+    width: 100%;
+    transform: scaleX(0) translate3d(0px, 0px, 0px);
+    background: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.author__avatar {
+  display: table-cell;
+  vertical-align: top;
+  width: 36px;
+  height: 36px;
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    max-width: 160px;
+    border-radius: 0%;
+    margin: auto;
+    @include breakpoint($large) {
+      padding: 0px;
+      border: 0px solid $border-color;
+    }
+  }
+}
+
+// .page__title {
+//   color: #fff;
+//   text-shadow: 3px 3px 4px rgba(#000, 0.8);
+// }
+
+.page__hero-caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 2px 5px;
+  color: #fff;
+  font-family: $helvetica, Arial;
+  font-size: 0.6em;
+  background: #000;
+  text-align: right;
+  z-index: 5;
+  opacity: 0.4;
+  border-radius: $border-radius 0 0 0;
+
+  @include breakpoint($large) {
+    padding: 5px 10px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.page__hero {
+  position: relative;
+  margin-bottom: 2em;
+  @include clearfix;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+
+  &--overlay {
+    position: relative;
+    margin-bottom: 1em;
+    padding: 2.5em 0;
+    @include clearfix;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-animation: $intro-transition;
+    animation: $intro-transition;
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+
+    a {
+      color: #fff;
+    }
+
+    .wrapper {
+      padding-left: 1em;
+      padding-right: 1em;
+
+      @include breakpoint($x-large) {
+        max-width: $x-large;
+      }
+    }
+
+    .page__title,
+    .page__meta,
+    .page__lead,
+    .btn {
+      color: #fff;
+      text-shadow: 3px 3px 4px rgba(#000, 0.8);
+    }
+
+    .page__lead {
+      max-width: $medium;
+    }
+
+    .page__title {
+      font-size: $type-size-2;
+
+      @include breakpoint($small) {
+        font-size: $type-size-1;
+      }
+    }
+  }
+}

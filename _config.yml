@@ -3,10 +3,10 @@ minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "Ko-KR"
-title                    : "Woogear Kwon"
+title                    : ""
 title_separator          : "-"
 name                     : "Woogear Kwon"
-description              : "Morning Lover"
+description              : # "Morning Lover"
 url                      : https://woogearkwon.github.io
 #baseurl                  : ""
 repository               : WoogearKwon/woogearkwon.github.io
@@ -45,46 +45,43 @@ analytics:
 
 # Site Author
 author:
-  name             : # "Woogear Kwon"
-  avatar           : # "/assets/images/logo.png"
-  bio              : # "Shalom!"
+  name             : "Woogear Kwon"
+  avatar           : "/assets/images/profile-woogear.png"
+  bio              : "Shalom!"
   location         : # "Seoul, South Korea"
   email            : # "woogear.kwon@gmail.com"
   links:
     - label: "woogear.kwon@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:woogear.kwon@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/WoogearKwon"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
-# Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "mailto:woogear.kwon@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/WoogearKwon"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
-    - label: "email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:woogear.kwon@gmail.com"
+      # url: "https://instagram.com/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/woogear-kwon-a964a1153/"
+
+# Site Footer
+#footer:
+#  links:
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      # url:
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/WoogearKwon"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      # url:
+#    - label: "email"
+#      icon: "fas fa-fw fa-envelope-square"
+#      # url: "mailto:woogear.kwon@gmail.com"
+#    - label: "linkedin"
+#      icon: "fas fa-fw fa-linkedin"
+#      # url: "https://www.linkedin.com/in/woogear-kwon-a964a1153/"
 
 
 # Reading Files
