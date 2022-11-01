@@ -49,6 +49,14 @@ figure img, figure iframe, figure .fluid-width-video-wrapper {
     transition: all 0.2s ease-in-out 0s;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    color: #262626;
+    font-family: 'applesdgothicneo-ultralight', sans-serif;
+    line-height: 1.5;
+}
+
 .author__avatar {
   display: table-cell;
   vertical-align: top;
