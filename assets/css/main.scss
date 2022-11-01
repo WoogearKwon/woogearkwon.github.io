@@ -8,6 +8,27 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+#main {
+  @include clearfix;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  max-width: 100%;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+
+  @include breakpoint($x-large) {
+    max-width: 1400px;
+  }
+}
+
+figure img, figure iframe, figure .fluid-width-video-wrapper {
+    margin-bottom: 8px;
+}
+
 .page__content :not(pre) > code {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
@@ -131,4 +152,12 @@ search: false
       }
     }
   }
+}
+
+figcaption {
+    margin-bottom: 0.5em;
+    color: #515151;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: 0.75em;
+    text-align: center;
 }
