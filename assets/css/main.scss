@@ -21,7 +21,7 @@ search: false
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
-    max-width: 1400px;
+    max-width: 1500px;
   }
 }
 
@@ -167,5 +167,8 @@ figcaption {
     color: #515151;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: 0.75em;
-    text-align: center;
+}
+
+.notice--warning {
+    margin: 0em;
 }
