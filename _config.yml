@@ -46,7 +46,7 @@ analytics:
 # Site Author
 author:
   name             : "Woogear Kwon"
-  avatar           : "/assets/images/profile-woogear.png"
+  avatar           : # "/assets/images/profile-woogear.png"
   bio              : ""
   location         : # "Seoul, South Korea"
   email            : # "woogear.kwon@gmail.com"
@@ -126,9 +126,9 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -136,6 +136,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-sitemap
 
 category_archive:
   type: liquid
