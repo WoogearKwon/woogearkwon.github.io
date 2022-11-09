@@ -3,8 +3,8 @@ minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "Ko-KR"
-title                    : ""
-title_separator          : "-"
+title                    : #""
+title_separator          : #"-"
 name                     : "Woogear Kwon"
 description              : # "Morning Lover"
 url                      : https://woogearkwon.github.io
