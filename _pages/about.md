@@ -9,7 +9,7 @@ header:
 classes: wide
 ---
 
-![image-left](/assets/images/profile-woogear-200x269.png){: .align-left}
+![image-left](/assets/images/profile-with-sam-300.png){: .align-left}
 어려서부터 외국어 배우길 좋아했습니다.<br/>
 새로운 언어를 배울때마다 새로운 세상이 열렸습니다.<br/>
 뒤늦게 프로그래밍 언어를 배우고 또 다른 세상이 열렸습니다.<br/>
