@@ -1,7 +1,7 @@
 ---
 title:  "프로그래밍 세계의 구루들"
 date:   2022-11-23 08:03:26 +0900
-categories: 프로그래머 구루 대가
+categories: programmer guru
 ---
 
 ### Linus Torvalds
