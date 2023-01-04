@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Woogear\'s Small Step`,
+    title: `Woogear\'s memoization`,
     author: {
       name: `Woogear Kwon`,
-      summary: `개발자가 되어서 행복하고, 한 아이의 아빠가 되어서 여전히 행복한 권욱일의 블로그입니다.`,
+      summary: `개발자가 되어서 행복하고, 한 아이의 아빠가 되어서 여전히 행복합니다. 성공도 하고 싶지만 성장하는 삶을 살고 싶어 합니다. 무언가를 만들고 고치고 적고 그리는 것을 좋아합니다.`,
     },
     description: `권욱일의 블로그`,
     siteUrl: `https://woogearkwon.github.io/`,

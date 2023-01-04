@@ -1,7 +1,7 @@
 {
-  "name": "small-step",
+  "name": "memoization",
   "private": true,
-  "description": "Woogear's Small Step",
+  "description": "Woogear's memoization",
   "version": "0.1.0",
   "author": "Woogear Kwon <woogear.kwon@gmail.com>",
   "bugs": {
