@@ -11,7 +11,7 @@
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-2xl);
+  --maxWidth-wrapper: var(--maxWidth-3xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -249,11 +249,14 @@ a:focus {
 }
 
 .global-header {
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 2px solid;
   margin-bottom: var(--spacing-12);
 }
 
 .main-heading {
-  font-size: var(--fontSize-7);
+  font-size: var(--fontSize-5);
   margin: 0;
 }
 
@@ -281,7 +284,7 @@ a:focus {
   font-weight: var(--fontWeight-bold);
   font-family: var(--font-heading);
   text-decoration: none;
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-4);
 }
 
 .bio {
@@ -328,4 +331,95 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+}
+
+@media (max-width: 800px) {
+  .blog-list-item{
+    display: flex;
+    flex-direction: column;
+
+    a {
+      width: 100%;
+      text-align: right;
+    }
+  }
+  .header-link-home{
+    width: 70%;
+    text-align: left;
+  }
+
+  .main-heading {
+    width: 70%;
+    text-align: left;
+  }
+
+  .header-nav-link{
+    width: 100%;
+    text-align: right;
+  }
+
+  .container {
+    align-items: flex-start;
+    width: 15%;
+  }
+}
+
+@media (min-width: 801px) {
+  .title {
+    width: 80%;
+    text-align: left;
+  }
+
+  .date {
+    width: 20%;
+    text-align: right;
+  }
+
+  .header-link-home, .main-heading{
+    width: 75%;
+    text-align: left;
+  }
+
+  .header-actions {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-weight: var(--fontWeight-bold);
+    font-family: var(--font-heading);
+    text-decoration: none;
+    font-size: var(--fontSize-2);
+
+    .header-nav-link{
+      width: 15%;
+      text-align: right;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .global-header {
+    flex-direction: column;
+  }
+
+  .header-link-home, .main-heading {
+    text-align: center;
+    width: 100%;
+  }
+
+  .header-nav-link {
+    text-align: right;
+    width: 100%;
+  }
+
+  .header-actions {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+.header-actions {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
 }
