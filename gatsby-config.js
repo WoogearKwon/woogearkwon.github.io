@@ -1,23 +1,13 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
 
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
+const siteConfig = require('./config.js')
+
 module.exports = {
   siteMetadata: {
-    title: `Woogear\'s memo`,
-    author: {
-      name: `Woogear Kwon`,
-      summary: `개발자가 되어서 행복하고, 한 아이의 아빠가 되어서 여전히 행복합니다. 성공도 하고 싶지만 성장하는 삶을 살고 싶어 합니다. 무언가를 만들고 고치고 적고 그리는 것을 좋아합니다.`,
-    },
-    description: `권욱일의 블로그`,
-    siteUrl: `https://woogearkwon.github.io/`,
-    social: {
-    },
+    title: siteConfig.title,
+    author: siteConfig.author,
+    description: siteConfig.description,
+    siteUrl: siteConfig.url,
+    social: siteConfig.author.social,
   },
   plugins: [
     {
@@ -126,7 +116,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Woogear\'s Small Step`,
+        name: `데일리 1퍼센트`,
         short_name: `Gatsby`,
         start_url: `/`,
         background_color: `#ffffff`,

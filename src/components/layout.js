@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import FooterSocialIcons from "./footer-social-icons";
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -26,13 +27,13 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">
         {header}
         <div className="header-actions">
-          <Link className="header-nav-link" to="/about/">me</Link>
+          <Link className="header-nav-link" to="/about/">about</Link>
         </div>
       </header>
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Woogear Kwon
-        {` `}
+      <footer className="d-flex">
+        <div className="copyright-text">© Woogear Kwon</div>
+        <div className="footer-icon-group"><FooterSocialIcons/></div>
       </footer>
     </div>
   )

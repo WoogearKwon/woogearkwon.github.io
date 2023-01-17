@@ -81,8 +81,46 @@ body {
   color: var(--color-text);
 }
 
+.d-flex {
+  display: flex;
+}
+
+
 footer {
   padding: var(--spacing-6) var(--spacing-0);
+}
+
+.copyright-text {
+  width: 100%;
+  text-align: left;
+}
+
+.footer-icon-group {
+  width:  8%;
+  text-align: center;
+}
+
+.footer-social-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  stroke-width: 0;
+  stroke: var(--color-text);
+  fill: var(--color-text);
+  font-style: normal;
+  font-weight: normal;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &:hover {
+    fill: currentColor;
+  }
 }
 
 hr {
