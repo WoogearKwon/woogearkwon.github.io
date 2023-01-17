@@ -31,9 +31,8 @@ const Layout = ({ location, title, children }) => {
       </header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, Woogear Kwon
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
       </footer>
     </div>
   )
