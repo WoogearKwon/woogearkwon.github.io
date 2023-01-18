@@ -1,5 +1,5 @@
 ---
-title: 객체지향 생활체조 원칙 (Object Calisthenics)
+title: 객체지향 생활체조 원칙
 date: "2021-08-10 22:03:26 +0900"
 ---
 
