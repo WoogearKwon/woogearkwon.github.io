@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = data.site.siteMetadata.title || `Title`
   const posts = data.allMarkdownRemark.nodes.filter(it => it.fields.slug !== "/about/")
 
   if (posts.length === 0) {
@@ -33,7 +33,7 @@ const BlogIndex = ({ data, location }) => {
               <article
                 className="post-list-item"
                 itemScope
-                itemType="http://schema.org/Article"
+                itemType="https://schema.org/Article"
               >
                 <header>
                   <h2>
@@ -59,7 +59,11 @@ export default BlogIndex
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="All posts" />
+export const Head = () => {
+    return (
+        <Seo title="Woogear" />
+    )
+}
 
 export const pageQuery = graphql`
   {
