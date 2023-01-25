@@ -27,7 +27,7 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">
         {header}
         <div className="header-actions">
-          <Link className="header-nav-link" to="/about/">about</Link>
+          <Link className="header-nav-link" to="/about/">소개</Link>
         </div>
       </header>
       <main>{children}</main>

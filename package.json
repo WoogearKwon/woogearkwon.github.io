@@ -1,7 +1,7 @@
 {
-  "name": "memoization",
+  "name": "daily1percent",
   "private": true,
-  "description": "Woogear's memoization",
+  "description": "Woogear's blog",
   "version": "0.1.0",
   "author": "Woogear Kwon <woogear.kwon@gmail.com>",
   "bugs": {
