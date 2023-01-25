@@ -5,6 +5,7 @@ module.exports = {
   description: `매일 조금씩 성장하기`,
   pathPrefix: '/',
   title: `데일리 1퍼센트`,
+  image: 'images/siteimage.png',
   disqusShortname: '',
   postsPerPage: 15,
   googleAnalyticsId: '',
