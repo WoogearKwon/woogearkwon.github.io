@@ -25,6 +25,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-image`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
